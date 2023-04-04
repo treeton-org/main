@@ -6,14 +6,20 @@
 yarn start
 ```
 
+## Build production and run on localhost
+
+```shell
+yarn prod
+```
+
 ## Build production
 
 ```shell
 yarn build
 ```
 
-## Build production and run on localhost
+## Remove build
 
 ```shell
-yarn prod
+yarn rm
 ```
