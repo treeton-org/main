@@ -23,3 +23,15 @@ yarn build
 ```shell
 yarn rm
 ```
+
+## Linter
+
+```shell
+yarn lint
+```
+
+## Pretty code using linter
+
+```shell
+yarn fix
+```
