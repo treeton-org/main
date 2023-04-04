@@ -1,5 +1,11 @@
 # Main
 
+## Start development
+
+```shell
+yarn start
+```
+
 ## Build production
 
 ```shell

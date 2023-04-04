@@ -1,8 +1,8 @@
 import path from 'path'
-import {config} from './common'
+import {merge} from 'webpack-merge'
+import {common} from './common'
 
-module.exports = {
-    ...config,
+module.exports = merge<Object>(common, {
     mode: 'production',
     output: {
         filename: 'js/bundle.[contenthash].min.js',
@@ -14,4 +14,4 @@ module.exports = {
         'react': 'React',
         'react-dom': 'ReactDOM',
     }
-}
+})

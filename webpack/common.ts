@@ -1,10 +1,10 @@
 import path from 'path'
 import HtmlWebpackPlugin from 'html-webpack-plugin'
 
-export const config = {
+export const common = {
     entry: './index.tsx',
     resolve: {
-        extensions: ['.ts', '.tsx'],
+        extensions: ['.js', '.jsx', '.ts', '.tsx'],
     },
     context: path.resolve(__dirname, '../src'),
     module: {
