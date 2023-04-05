@@ -28,5 +28,5 @@ export const common = {
             }
         ]
     },
-    plugins: [new HtmlWebpackPlugin({template: 'index.html.ejs'})]
+    plugins: [new HtmlWebpackPlugin({template: '../public/index.html.ejs'})]
 }
