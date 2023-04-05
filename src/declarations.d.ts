@@ -4,6 +4,6 @@ declare module '*.svg' {
 }
 
 declare module '*.sass' {
-  const classes: { [key: string]: string }
+  const classes: Record<string, string>
   export default classes
 }
