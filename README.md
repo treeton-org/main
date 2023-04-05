@@ -1,5 +1,7 @@
 # Main
 
+![cover](docs/cover.png)
+
 ## Start development
 
 ```shell
