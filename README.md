@@ -37,3 +37,16 @@ yarn lint
 ```shell
 yarn fix
 ```
+
+## Up local
+
+[Up infrastructure](https://github.com/treeton-org/team#readme)
+
+```shell
+docker network create traefik
+docker compose --env-file .env.local up
+```
+
+## Deploy on server
+
+Auto [GitHub action](https://github.com/treeton-org/main/actions/workflows/build-and-deploy.yaml)
