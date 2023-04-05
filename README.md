@@ -2,6 +2,12 @@
 
 ![cover](docs/cover.png)
 
+## Installation
+
+```shell
+yarn install && yarn env
+```
+
 ## Start development
 
 ```shell
@@ -32,7 +38,7 @@ yarn rm
 yarn lint
 ```
 
-## Pretty code using linter
+## Prettify code using linter
 
 ```shell
 yarn fix
