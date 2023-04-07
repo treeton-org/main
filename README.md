@@ -56,3 +56,15 @@ docker compose --env-file .env.local up
 ## Deploy on server
 
 Auto [GitHub action](https://github.com/treeton-org/main/actions/workflows/build-and-deploy.yaml)
+
+## Docker network scheme
+
+```mermaid
+flowchart TD
+    %% Traefik
+    traefik(traefik)-->|traefik|nginx(nginx)
+
+subgraph Main
+    nginx(nginx)
+end
+```
